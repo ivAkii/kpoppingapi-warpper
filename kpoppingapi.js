@@ -5,14 +5,14 @@ class KpoppingApi {
     this.baseUrl = 'https://kpoppingapi.netlify.app/api';
   }
 
-  async getIdolpicsImages(idolName, groupName) {
+  async getIdolpics(idolName, groupName) {
     let url = `${this.baseUrl}/idolpics/${idolName}/${groupName || ''}`;
 
     const res = await axios.get(url);
     return res.data.images || res.data.message;
   }
 
-  async getGrouppicsImages(groupName) {
+  async getGroupImages(groupName) {
     let url = `${this.baseUrl}/grouppics/${groupName}`;
 
     const res = await axios.get(url);
