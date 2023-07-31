@@ -6,20 +6,26 @@ class KpoppingApi {
   }
 
   async getIdolpicsImages(idolName, groupName) {
-    let url = `${this.baseUrl}/idolpics/${idolName}`;
-    if (groupName) {
-      url += `/${groupName}`;
-    }
+    let url = `${this.baseUrl}/idolpics/${idolName}/${groupName || ''}`;
 
-    const response = await axios.get(url);
-    return response.data.images;
+    const res = await axios.get(url);
+    return res.data.images || res.data.message;
   }
-
 
   async getGrouppicsImages(groupName) {
     let url = `${this.baseUrl}/grouppics/${groupName}`;
-    const response = await axios.get(url);
-    return response.data.images;
+
+    const res = await axios.get(url);
+    return res.data.images  || res.data.message;
+  }
+  
+  async getProfileData(name, group) {
+    let url = `${this.baseUrl}/profile/${name}/${group || ''}`;
+
+      const res = await axios.get(url);
+      return res.data  || res.data.message;
   }
 }
+
+
 module.exports = KpoppingApi;

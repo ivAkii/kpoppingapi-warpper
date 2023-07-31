@@ -2,10 +2,10 @@ const KpoppingApi = require('./kpoppingapi');
 
 const api = new KpoppingApi();
 
-api.getGrouppicsImages("red velvet")
+api.getIdolpicsImages("hyein")
   .then(images => {
     console.log(images);
   })
-  .catch(error => {
-    console.error(error);
+  .catch(err => {
+    console.error(err);
   });
