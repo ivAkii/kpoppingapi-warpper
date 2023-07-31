@@ -2,7 +2,7 @@ const KpoppingApi = require('./kpoppingapi');
 
 const api = new KpoppingApi();
 
-api.getGpicsImages("newjeans")
+api.getGrouppicsImages("red velvet")
   .then(images => {
     console.log(images);
   })
