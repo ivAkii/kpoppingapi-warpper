@@ -2,19 +2,19 @@ name: Node.js Package
 
 on:
   push:
-    branches :
+    branches:
       - master
-  
+
 jobs:
   publish-gpr:
     runs-on: ubuntu-latest
-    steps :
+    steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@vl
-        with :
-            node-version: 12
-            registry-url: https://npa.pkg.github.com/
-            scope: "ivAKii"
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://npm.pkg.github.com/
+          scope: "ivAKii"
       - run: npm install
       - run: npm publish
         env:
