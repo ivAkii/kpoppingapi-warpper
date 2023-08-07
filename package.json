@@ -1,6 +1,6 @@
 {
   "name": "kpoppingapi-warpper",
-  "version": "1.2.6",
+  "version": "1.2.61",
   "main": "kpoppingapi.js",
   "scripts": {
     "start": "node ."

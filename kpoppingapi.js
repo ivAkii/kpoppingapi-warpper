@@ -13,7 +13,7 @@ class KpoppingApi {
   }
 
   async getGroupImages(groupName) {
-    let url = `${this.baseUrl}/grouppics/${groupName}`;
+    let url = `${this.baseUrl}/groupImages/${groupName}`;
 
     const res = await axios.get(url);
     return res.data.images  || res.data.message;
