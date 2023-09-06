@@ -2,7 +2,7 @@ const axios = require('axios');
 
 class KpoppingApi {
   constructor() {
-    this.baseUrl = 'https://kpoppingapi.netlify.app/api';
+    this.baseUrl = 'https://kpopping-api.higanbna.xyz/api';
   }
 
   async getIdolpics(idolName, groupName) {

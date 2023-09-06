@@ -1,6 +1,6 @@
 # KpoppingAPI Wrapper
 
-> A JavaScript wrapper for the **[unofficial KpoppingAPI](https://kpoppingapi.netlify.app)**. This wrapper simplifies the process of making API calls to retrieve images & information about K-pop idols and groups from the api!.
+> A JavaScript wrapper for the **[unofficial KpoppingAPI](https://kpopping-api.higanbna.xyz/api)**. This wrapper simplifies the process of making API calls to retrieve images & information about K-pop idols and groups from the api!.
 
 >What is Kpopping API?
 Essentially it's a webscraping api that scrapes data such as images, idol profile, group profile.
@@ -122,6 +122,7 @@ On the main website [kpopping.com], where the API scrapes data from, idols with 
 
 ```
 {
+  "GroupImage": "https://kpopping.com/documents/14/2/850/BTS-fullPicture(2).webp?v=f6d61",
   "GroupName": "BTS",
   "CurrentState": "in hiatus",
   "Agencies": {
@@ -137,6 +138,8 @@ On the main website [kpopping.com], where the API scrapes data from, idols with 
   "KpoppingRank": "1st",
   "Fandom": "ARMY",
   "FandomColors": "Purple[#A020F0]",
+  "Awards": "164",
+  "Albums": "44",
   "Members": {
     "1": {
       "Name": "Jin",
@@ -204,7 +207,7 @@ On the main website [kpopping.com], where the API scrapes data from, idols with 
       "Age": "27 years old",
       "Birthplace": "Daegu   South Korea",
       "Height": "5'11\" (179 cm)",
-      "Weight": "132.3 lbs (60 kg)",
+      "Weight": "136.7 lbs (62 kg)",
       "ZodiacSign": "Capricorn",
       "bloodtype": "AB",
       "MBTI": "INFP",
@@ -213,7 +216,7 @@ On the main website [kpopping.com], where the API scrapes data from, idols with 
     "7": {
       "Name": "Jungkook",
       "Birthday": "Sep 1, 1997",
-      "Age": "25 years old",
+      "Age": "26 years old",
       "Birthplace": "Busan   South Korea",
       "Height": "5'11\" (179 cm)",
       "Weight": "156.5 lbs (71 kg)",
