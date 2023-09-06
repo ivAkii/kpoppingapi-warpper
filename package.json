@@ -1,6 +1,6 @@
 {
   "name": "kpoppingapi-warpper",
-  "version": "1.2.63",
+  "version": "1.2.64",
   "main": "kpoppingapi.js",
   "scripts": {
     "start": "node ."
@@ -10,7 +10,12 @@
     "wrapper",
     "kpopping",
     "images",
-    "api"
+    "api",
+    "kpopping-api warpper",
+    "kpop",
+    "Kpoppingapi-warpper",
+    "Kpoppingapi warpper",
+    "Kpopping api warpper"
   ],
   "author": "ivAKii",
   "license": "MIT",

@@ -1,6 +1,6 @@
 # KpoppingAPI Wrapper
 
-> A JavaScript wrapper for the **[unofficial KpoppingAPI](https://kpopping-api.higanbna.xyz/api)**. This wrapper simplifies the process of making API calls to retrieve images & information about K-pop idols and groups from the api!.
+> A JavaScript wrapper for the **[unofficial KpoppingAPI](https://kpopping-api.higanbna.xyz)**. This wrapper simplifies the process of making API calls to retrieve images & information about K-pop idols and groups from the api!.
 
 >What is Kpopping API?
 Essentially it's a webscraping api that scrapes data such as images, idol profile, group profile.
