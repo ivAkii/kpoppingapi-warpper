@@ -17,7 +17,7 @@ npm install kpoppingapi-warpper
 
 | Methods        | First Param           | Optional Param  |
 | ------------- |:-------------:| -----:|
-|getIdolpics     | Idol Name | Group Nam |
+|getIdolpics     | Idol Name | Group Name |
 | getGroupImages      | Group Name      |  -  |
 |getProfileData | Idol/Group Name     |   Group Name |
 
