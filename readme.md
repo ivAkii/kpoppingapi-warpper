@@ -10,7 +10,7 @@ Essentially it's a webscraping api that scrapes data such as images, idol profil
 > To use the KpoppingAPI Wrapper in your project, you can install it via npm:
 
 ```sh
-npm install kpoppingapi-warpper
+npm install kpoppingapi-wrapper
 ```
 ---
 ## Usage Documentation
@@ -22,7 +22,7 @@ npm install kpoppingapi-warpper
 |getProfileData | Idol/Group Name     |   Group Name |
 
 ```javascript
-const KpoppingApi = require('kpoppingapi-warpper');
+const KpoppingApi = require('kpoppingapi-wrapper');
 const api = new KpoppingApi();
 
 api.getIdolpics("nayeon")
@@ -264,7 +264,7 @@ SOFTWARE.
  ---
 ## Contribution
 
-##### If you find any issues with the wrapper or would like to contribute to its improvement, feel free to open an issue or submit a pull request on **[GitHub](https://github.com/ivAkii/kpoppingapi-warpper)**
+##### If you find any issues with the wrapper or would like to contribute to its improvement, feel free to open an issue or submit a pull request on **[GitHub](https://github.com/ivAkii/kpoppingapi-wrapper)**
 
 ---
 > Contact me via mail `iv.akii.ouo@gmail.com`.

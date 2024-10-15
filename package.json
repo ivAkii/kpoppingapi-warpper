@@ -1,6 +1,6 @@
 {
-  "name": "kpoppingapi-warpper",
-  "version": "1.2.65",
+  "name": "kpoppingapi-wrapper",
+  "version": "1.0.0",
   "main": "kpoppingapi.js",
   "scripts": {
     "start": "node ."
@@ -11,11 +11,11 @@
     "kpopping",
     "images",
     "api",
-    "kpopping-api warpper",
+    "kpopping-api wrapper",
     "kpop",
-    "Kpoppingapi-warpper",
-    "Kpoppingapi warpper",
-    "Kpopping api warpper"
+    "Kpoppingapi-wrapper",
+    "Kpoppingapi wrapper",
+    "Kpopping api wrapper"
   ],
   "author": "ivAKii",
   "license": "MIT",
@@ -23,13 +23,13 @@
     "axios": "^1.3.4"
   },
   "devDependencies": {},
-  "description": "A Javascript warpper for KpoppingAPI [https://kpopping-api.higanbna.xyz]",
+  "description": "A Javascript wrapper for KpoppingAPI [https://kpopping-api.higanbna.xyz]",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ivAkii/kpoppingapi-warpper.git"
+    "url": "git+https://github.com/ivAkii/kpoppingapi-wrapper.git"
   },
   "bugs": {
-    "url": "https://github.com/ivAkii/kpoppingapi-warpper/issues"
+    "url": "https://github.com/ivAkii/kpoppingapi-wrapper/issues"
   },
-  "homepage": "https://github.com/ivAkii/kpoppingapi-warpper#readme"
+  "homepage": "https://github.com/ivAkii/kpoppingapi-wrapper#readme"
 }
